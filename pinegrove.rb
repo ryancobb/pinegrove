@@ -13,6 +13,7 @@ loop do
   string_distance = jarrow.getDistance(html_page, new_html_page)
   puts string_distance
   if string_distance < string_distance_threshold
+    system("say all of a sudden it is morning time")
     puts %{
                                               +++++++++++    + +    ++  +   + +                      
                                               +                               +                      
